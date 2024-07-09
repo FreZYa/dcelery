@@ -1,0 +1,10 @@
+2024-07-09 19:10:55,402 INFO Watching for file changes with StatReloader
+2024-07-09 19:11:25,048 INFO /usr/src/app/dcelery/celery_tasks/ex1_try_except.py changed, reloading.
+2024-07-09 19:11:25,740 INFO Watching for file changes with StatReloader
+2024-07-09 19:11:45,255 INFO Watching for file changes with StatReloader
+2024-07-09 19:14:01,615 INFO /usr/src/app/dcelery/celery_tasks/ex3_auto_retry.py changed, reloading.
+2024-07-09 19:14:02,346 INFO Watching for file changes with StatReloader
+2024-07-09 19:17:28,830 INFO /usr/src/app/dcelery/celery_tasks/ex3_auto_retry.py changed, reloading.
+2024-07-09 19:17:29,519 INFO Watching for file changes with StatReloader
+2024-07-09 19:18:10,376 INFO /usr/src/app/dcelery/celery_tasks/ex3_auto_retry.py changed, reloading.
+2024-07-09 19:18:11,062 INFO Watching for file changes with StatReloader

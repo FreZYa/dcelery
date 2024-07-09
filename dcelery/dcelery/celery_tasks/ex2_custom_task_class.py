@@ -8,7 +8,7 @@ from dcelery.celery_tasks.ex2_custom_task_class import my_task
 my_task.delay()
 """
 
-logging.basicConfig(filename='app.log', level=logging.ERROR, format='%(actime)s %(levelname)s %(message)s')
+logging.basicConfig(filename='app.log', level=logging.ERROR, format='%(asctime)s %(levelname)s %(message)s')
 
 
 class CustomTask(Task):
