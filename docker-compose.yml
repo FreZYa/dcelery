@@ -40,7 +40,7 @@ services:
     container_name: celery1
     build:
       context: ./dcelery
-    command: celery --app=dcelery worker --hostname=celeryWorker1@%h -l INFO -Q tasks
+    command: celery --app=dcelery worker --hostname=celeryWorker1@%h -l INFO -Q tasks,dead_letter -E -B
     # command: celery --app=dcelery worker -l INFO -Q celery,celery:1,celery:2,celery:3
     volumes:
       - ./dcelery:/usr/src/app/
@@ -64,3 +64,11 @@ services:
   #   depends_on:
   #     - redis
   #     - django
+
+
+# command: celery --app=dcelery worker --hostname=celeryWorker1@%h -l INFO -Q tasks,dead_letter -E -B
+# Buradaki -E seçeneği, Celery işçi (worker) sürecini başlatırken "event" (olay) modunu etkinleştirir. Bu mod, Celery işlemlerinin durumunu izlemenizi sağlar. İşte -E seçeneğinin yapabilecekleri:
+# Eventlerin Toplanması: -E seçeneği etkinleştirildiğinde, Celery işçisi tarafından üretilen tüm olaylar (events) toplanır. Bu olaylar, işçinin başlangıcı, bitişi, işlem başına zaman bilgileri gibi işlemler hakkında bilgi sağlar.
+# İzleme Arayüzü ile Entegrasyon: Eventleri toplamak, genellikle Celery'nin sağladığı izleme arayüzleri veya dış izleme araçlarıyla kullanılır. Örneğin, Flower gibi bir izleme aracı, -E seçeneği etkinleştirilmiş bir işçinin ürettiği olayları izlemek ve görselleştirmek için kullanılabilir.
+# Hata Ayıklama ve Performans İyileştirmesi: Eventler, hata ayıklama sürecinde ve performans iyileştirmelerinde faydalı olabilir. Örneğin, işçi performansını değerlendirmek veya belirli görevlerin ne kadar sürede tamamlandığını anlamak için bu bilgiler kullanılabilir.
+# Sonuç olarak, -E seçeneği, Celery işçisinin ürettiği olayları toplamak ve işlemlerin durumu hakkında daha fazla bilgi sağlamak için kullanılır. Bu seçenek genellikle izleme, hata ayıklama ve performans değerlendirmesi amacıyla etkinleştirilir.

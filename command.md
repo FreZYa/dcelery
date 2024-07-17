@@ -6,7 +6,11 @@ python manage.py shell
 
 # Remove all docker
 docker stop $(docker ps -aq) && docker rm $(docker ps -aq) && docker rmi $(docker images -aq)
-
+FOR WINDOWS
+for /F "tokens=*" %i IN ('docker ps -aq') DO docker stop %i
+for /F "tokens=*" %i IN ('docker ps -aq') DO docker rm %i
+for /F "tokens=*" %i IN ('docker images -aq') DO docker rmi %i
+FOR WINDOWS
 task grouping modelleri aynı anda çalıştırmak için kullanışlı olabilir
 task chaining ise model analizinden çıkarn sonuçları after processe e aktarırken kullanılabilir
 
@@ -36,3 +40,5 @@ from dcelery.celery import t1
 result = t1.apply_async(args=[5,10], kwargs={"message": "The sum is "})
 print(result.get())
 The sum is : 15
+
+pip install django-celery-beat && docker build && add installed apps && manage.py migrate

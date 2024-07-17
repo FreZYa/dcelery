@@ -8,3 +8,33 @@
 2024-07-09 19:17:29,519 INFO Watching for file changes with StatReloader
 2024-07-09 19:18:10,376 INFO /usr/src/app/dcelery/celery_tasks/ex3_auto_retry.py changed, reloading.
 2024-07-09 19:18:11,062 INFO Watching for file changes with StatReloader
+2024-07-15 15:16:45,005 INFO Watching for file changes with StatReloader
+2024-07-15 15:30:31,718 INFO /usr/src/app/dcelery/celery_tasks/ex6_dead_letter_queue.py changed, reloading.
+2024-07-15 15:30:32,412 INFO Watching for file changes with StatReloader
+2024-07-15 15:40:53,487 INFO Watching for file changes with StatReloader
+2024-07-15 15:45:53,790 INFO /usr/src/app/dcelery/celery_tasks/ex7_task_timeouts_revoking.py changed, reloading.
+2024-07-15 15:45:54,511 INFO Watching for file changes with StatReloader
+2024-07-15 15:46:56,984 INFO /usr/src/app/dcelery/celery_tasks/ex7_task_timeouts_revoking.py changed, reloading.
+2024-07-15 15:46:57,703 INFO Watching for file changes with StatReloader
+2024-07-15 15:48:36,884 INFO /usr/src/app/dcelery/celery_tasks/ex7_task_timeouts_revoking.py changed, reloading.
+2024-07-15 15:48:37,611 INFO Watching for file changes with StatReloader
+2024-07-15 15:50:00,484 INFO /usr/src/app/dcelery/celery_tasks/ex7_task_timeouts_revoking.py changed, reloading.
+2024-07-15 15:50:01,198 INFO Watching for file changes with StatReloader
+2024-07-15 15:51:42,350 INFO /usr/src/app/dcelery/celery_tasks/ex7_task_timeouts_revoking.py changed, reloading.
+2024-07-15 15:51:43,086 INFO Watching for file changes with StatReloader
+2024-07-15 15:56:34,114 INFO /usr/src/app/dcelery/celery_tasks/ex7_task_timeouts_revoking.py changed, reloading.
+2024-07-15 15:56:34,852 INFO Watching for file changes with StatReloader
+2024-07-15 15:57:58,700 INFO /usr/src/app/dcelery/celery_tasks/ex7_task_timeouts_revoking.py changed, reloading.
+2024-07-15 15:57:59,456 INFO Watching for file changes with StatReloader
+2024-07-17 18:28:49,052 INFO Watching for file changes with StatReloader
+2024-07-17 18:57:35,352 INFO Watching for file changes with StatReloader
+2024-07-17 19:35:07,518 INFO Watching for file changes with StatReloader
+2024-07-17 19:37:12,827 WARNING Not Found: /favicon.ico
+2024-07-17 19:44:12,026 INFO /usr/src/app/dcelery/celery_tasks/ex13_task_schedule_crontab.py changed, reloading.
+2024-07-17 19:44:12,825 INFO Watching for file changes with StatReloader
+2024-07-17 19:44:14,131 INFO /usr/src/app/dcelery/celery_tasks/ex13_task_schedule_crontab.py changed, reloading.
+2024-07-17 19:44:14,911 INFO Watching for file changes with StatReloader
+2024-07-17 19:46:56,506 INFO /usr/src/app/dcelery/settings.py changed, reloading.
+2024-07-17 19:46:57,343 INFO Watching for file changes with StatReloader
+2024-07-17 19:47:42,622 INFO Watching for file changes with StatReloader
+2024-07-17 19:47:50,541 INFO Watching for file changes with StatReloader

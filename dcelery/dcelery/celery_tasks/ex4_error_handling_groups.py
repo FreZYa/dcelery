@@ -3,7 +3,7 @@ from dcelery.celery_config import app
 
 
 """
-from dcelery.celery_tasks.ex4_error_handling_groups import my_task
+from dcelery.celery_tasks.ex4_error_handling_groups import run_tasks
 run_tasks()
 """
 
