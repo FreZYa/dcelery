@@ -38,3 +38,11 @@
 2024-07-17 19:46:57,343 INFO Watching for file changes with StatReloader
 2024-07-17 19:47:42,622 INFO Watching for file changes with StatReloader
 2024-07-17 19:47:50,541 INFO Watching for file changes with StatReloader
+2024-07-25 17:53:27,791 INFO Watching for file changes with StatReloader
+2024-07-25 17:55:22,002 WARNING Not Found: /favicon.ico
+2024-07-25 17:58:28,604 INFO /usr/src/app/newapp/tasks.py changed, reloading.
+2024-07-25 17:58:29,453 INFO Watching for file changes with StatReloader
+2024-07-25 18:12:24,862 INFO /usr/src/app/newapp/tasks.py changed, reloading.
+2024-07-25 18:12:25,720 INFO Watching for file changes with StatReloader
+2024-07-25 18:12:42,868 INFO Watching for file changes with StatReloader
+2024-07-25 18:26:53,578 INFO Watching for file changes with StatReloader
